@@ -32,7 +32,7 @@ def get_filters():
     # TO DO: get user input for month (all, january, february, ... , june)
     month=''
     while month not in ['all', 'january', 'february','march', 'april', 'may' , 'june']:
-        month = input('Enter the Month Name from the First Six Months or Enter all: ').lower()
+        month = input(' Please Enter the Month Name from the First Six Months or Enter all: ').lower()
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     day = ''
