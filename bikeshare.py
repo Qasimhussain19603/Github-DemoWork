@@ -26,7 +26,7 @@ def get_filters():
 >>>>>>> refactoring
     city = ''
     while city not in ['chicago', 'new york city', 'washington']:
-        city = input('Enter the Name of the City (chicago, new york city, washington): ').lower()
+        city = input(' Please Enter the Name of the City (chicago, new york city, washington): ').lower()
         
 
     # TO DO: get user input for month (all, january, february, ... , june)
